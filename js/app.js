@@ -1,7 +1,9 @@
 const App = {
     data() {
         return {
-            message: "Salut a tous!!"
+            showHome: true,
+            showCreateForm: false,
+            showStudentsList: false,
         }
     },
     methods() {
